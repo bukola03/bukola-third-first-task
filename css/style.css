@@ -1,0 +1,272 @@
+
+li{
+    list-style: none;
+    margin: 0 30px;
+    font-size: 18px;
+}
+ul{
+    display: flex;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    margin-left: 300px;
+}
+.bg-image{
+    background: url(../assets/homeBg.png);
+    padding: 32px 5px;
+}
+.hero{
+    display: flex;
+}
+button{
+    margin-top: 20px;
+    padding: 15px 15px;
+    background-color: rgba(0, 128, 0, 0.849);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.bg-image h2{
+text-align: center;
+font-size: 80px;
+font-weight: 100;
+margin-left: 300px;
+margin-right: 300px;
+color: white;
+margin-bottom: 0;
+}
+.bg-image p{
+    color: white;
+}
+.first-paragraph{
+    text-align: center;
+    font-size: 20px;
+}
+.checked-icon{
+    display: flex;
+    justify-content: center;
+}
+.checked{
+    display: flex;
+    padding:0 100px;
+}
+.checked-image{
+    width: 30px;
+    height: 30px;
+}
+.checked div > h5{
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.search{
+    width: 30px;
+    height: 30px;
+    /* margin-right: 2px; */
+}
+.search-bar{
+    align-items: center;
+    display: flex;
+    border:solid white 2px;
+    border-radius: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.search-bar p{
+    margin-right: 650px;
+    padding-left: 10px;
+}
+.popular h4{
+    color: white;
+}
+.star-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.star{
+    width: 30px;
+    height: 30px;
+}
+.paragraph{
+    margin-left: 550px;
+}
+.popular{
+    display: flex;
+    margin-left: 250px;
+}
+.stack{
+    display: flex;
+    margin-left: 100px;
+}
+.stack-list h4{
+    color: white;
+}
+.stack-list{
+    margin-right: 50px;
+    border:solid white 2px;
+    border-radius: 10px;
+    padding: 1px 15px;
+}
+.last-h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 3px;
+    text-decoration: underline;
+}
+.app{
+    width: 100px;
+    height: 100px;
+}
+.app-logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin-top: 60px;
+    padding-left: 50px;
+}
+.menu-icon{
+display: none;
+}
+@media (max-width:900px) {
+    ul{
+        display: none;
+    }
+    nav {
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 40px;
+        margin-left: 300px;
+    }
+    .hero{
+        display: flex;
+    }
+    button{
+        display: none;
+        margin-top: 20px;
+        padding: 15px 15px;
+        background-color: rgba(0, 128, 0, 0.849);
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+    }
+    .hero img{
+        width: 200px;
+        height: 100px;
+    }
+    .menu-icon{
+        display: inline;
+        width: 10px;
+        height: 1000px;
+    }
+    .bg-image h2{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 100;
+        margin-left: 10px;
+        margin-right: 10px;
+        /* color: white; */
+        margin-bottom: 0;
+        }
+        .bg-image{
+            background: url(../assets/homeBg.png);
+            background-position: center;
+            padding: 32px 5px;
+            margin: 20px 0;
+        }
+        .first-paragraph{
+            text-align: center;
+            font-size: 22px;
+        }
+        .checked-icon{
+            display: flex;
+            justify-content: center;
+            margin-top: 32px;
+        }
+        .checked{
+            display: flex;
+            padding:0 5px;
+        }
+        .checked-image{
+            width: 30px;
+            height: 30px;
+        }
+        .checked div > h5{
+            margin-top: 5px;
+            margin-left: 10px;
+            font-size: 15px;
+        }
+        .search{
+            width: 30px;
+            height: 30px;
+            /* margin-right: 2px; */
+        }
+        .search-bar{
+            align-items: center;
+            display: flex;
+            border:solid white 2px;
+            border-radius: 20px;
+            margin-right: 5px;
+            margin-left: 5px;
+            margin-top: 32px;
+        }
+        .search-bar p{
+            margin-right: 150px;
+            padding-left: 10px;
+        }
+        .star-icon{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .star{
+            width: 30px;
+            height: 30px;
+        }
+        .paragraph{
+            margin-left: 70px;
+        }
+        .popular{
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-left: 5px;
+            text-align: center;
+            color: white;
+        }
+        .stack{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap:10px;
+            margin-left:40px;
+        
+        }
+        .stack-list{
+            margin-right: 30px;
+            border:solid white 2px;
+            border-radius: 10px;
+            padding: 1px 5px;
+        }
+        .last-h2{
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 3px;
+            text-decoration: underline;
+        }
+        .app{
+            width: 100px;
+            height: 100px;
+        }
+        .app-logos{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-left: 5px;
+            grid-gap: 5px;
+            margin-top: 30px;
+            padding-left: 20px;
+        }
+}
